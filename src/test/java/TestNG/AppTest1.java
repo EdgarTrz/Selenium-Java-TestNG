@@ -19,7 +19,7 @@ public class AppTest1 {
     public void setUrl() {
         System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
         driver = new ChromeDriver();
-
+        driver.manage().window().maximize();
         driver.get(url);
     }
 
