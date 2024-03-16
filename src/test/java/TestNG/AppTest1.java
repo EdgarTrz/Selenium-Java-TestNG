@@ -25,7 +25,7 @@ public class AppTest1 {
 
     @Test
     public void Test1_Tittle() {
-        String expectedTitle = "Cosmo Belleza";
+        String expectedTitle = "Inicio - Cosmo Belleza";
         String actualTitle = driver.getTitle();
 
         Assert.assertEquals(actualTitle, expectedTitle);
