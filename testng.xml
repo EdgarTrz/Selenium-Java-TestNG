@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="TNGCosmo Test">
+        <classes>
+            <class name="TestNG.AppTest1"/>
+        </classes>
+    </test>
+</suite>
