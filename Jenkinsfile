@@ -1,9 +1,8 @@
 pipeline {
     agent any
-    }
 
     stages {
-        stage('git') {
+        stage('Checkout') {
             steps {
                 // Clonar el repositorio de GitHub
                 git 'https://github.com/EdgarTrz/Selenium-Java-TestNG.git'
